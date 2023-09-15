@@ -3,3 +3,7 @@
 venv/
 .pytest_cache
 db.sqlite3
+eth_api_app/__pycache__/
+eth_api_app/migrations/__pycache__/
+odev/__pycache__/
+tests/__pycache__/
