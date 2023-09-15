@@ -20,3 +20,9 @@
 
     python manage.py migrate
     python manage.py runserver
+
+### Comments on the work
+1. I didn't spend much time for API documentation
+2. Gas-based validation is not configured
+3. I used the sepolia network
+4. In order for the tests to be successful, you must enter PRIVATE_KEY in the .env file. The test transaction uses 0.0001 ETH, gas = 21000 and gasPrice = 50 gwei in sepolia network
