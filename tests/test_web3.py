@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 INFURA_KEY = os.environ.get("INFURA_KEY", "INFURA_KEY")
-infura_url = f'https://mainnet.infura.io/v3/{INFURA_KEY}'
+infura_url = f'https://sepolia.infura.io/v3/{INFURA_KEY}'
 
 
 class Web3ConnectionTestCase(TestCase):
