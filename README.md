@@ -1,6 +1,7 @@
 # odev
 
-## Configuring Environment Variables
+
+### Configuring Environment Variables
 
 1. Copy the **.env.template** file to **.env**
 2. Open the **.env** file using a text editor.
