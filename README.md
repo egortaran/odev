@@ -26,4 +26,4 @@
 2. Gas-based validation is not configured
 3. I used the sepolia network
 4. In order for the tests to be successful, you must enter PRIVATE_KEY in the .env file. The test transaction uses 0.0001 ETH, gas = 21000 and gasPrice = 50 gwei in sepolia network
-5. For start test you should write "pytest" in main directory 
+5. For start test you should write **pytest** in main directory 
